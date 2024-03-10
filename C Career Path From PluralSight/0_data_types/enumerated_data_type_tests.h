@@ -1,0 +1,1 @@
+void run_enum_tests(void); 

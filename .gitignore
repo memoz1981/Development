@@ -1,0 +1,9 @@
+**.exe
+**.obj
+**.pdb
+**.ilk
+**.txt
+
+**bin/
+**obj/
+**/.vs/

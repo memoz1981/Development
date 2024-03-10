@@ -1,0 +1,1 @@
+/* Derived data types are arrays, pointers, structs, union and function types - which will be covered under separate sections*/

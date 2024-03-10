@@ -1,0 +1,1 @@
+void run_pointer_tests(void); 

@@ -1,0 +1,1 @@
+// since no variable can be declared with void type - associated tests will be covered under array, pointer etc. 

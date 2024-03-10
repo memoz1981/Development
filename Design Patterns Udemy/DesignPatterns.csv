@@ -1,0 +1,20 @@
+﻿Design Patterns,Group,Purpose,Elements,S,O,L,I,D
+Strategy,Behavioral,"De-couple behaviour from class
+
+Note: The strategy doesn't offer end-to-end implementation to a problem, rather proposes partial solution to de-couple behaviour from the class. 
+
+Note: Any kind of interface/abstract class usage is strategy imlementation, disregards if it's implemented or resolved.","1. Context - element containing client code with behaviours
+2. IStrategy interface - the behaviour being abstracted.
+3. StrategyImplementations 1,2,3 - Behavior Implementation",Yes - By separating the behaviour from the class,Partial - by making it possible to extend the behaviour. Still existing code will be updated. ,P - Interfaces are used to substitute for each behaviour,P - An interface is used per behaviour,"N/A - again this strategy doesn't care on how the substitution is done, rather what is done is relevant, not how. "
+Singleton,Behavioral,"Required if:
+1. Shared DB
+2. Shared network resource
+3. Constructor requires large amount of data
+
+Best implementation is DI container, singleton lifetitmem second best is Lazy Implementation",Singleton instance of the class,No - as the class creation responsibility is given to class. ,N/A,N/A,N/A,N/A
+Command,Behavioral,"1. WPF - integration with Icommand interface (and RelayCommand implementation)
+2. Separation of concerns
+3. Ability to combine and manage multiple commands, and de-couple from repositories - for example being able to validate multiple requests at a time, and then act. 
+4. Allows Undo, ReDo and keeping track of the commands executed. 
+5. Allows transactional commants
+6. Allows deferring the commands to a later time. ","Command, Invoker(Command manager), Command Received and Client. Command should know everything to be able to execute (also to be able to undo, and to be able to assess if it can execute)",Yes,Yes,N/A,N/A,P

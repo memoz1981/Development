@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "basic_data_type_tests.h": "c",
+        "conditional_logic_tests.h": "c",
+        "string_tests.h": "c",
+        "helper.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "locale.h": "c",
+        "func_tests.h": "c",
+        "cpp_test.h": "c"
+    }
+}
